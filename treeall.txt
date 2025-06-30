@@ -1,0 +1,58 @@
+Folder PATH listing for volume External
+Volume serial number is 2A20-95CB
+D:.
+|   README.md
+|   treeall.txt
+|   
++---backend
+|   |   .env
+|   |   .gitignore
+|   |   package-lock.json
+|   |   package.json
+|   |   tsconfig.json
+|   |   
+|   +---prisma
+|   |   |   schema.prisma
+|   |   |   
+|   |   \---migrations
+|   |       |   migration_lock.toml
+|   |       |   
+|   |       \---20250630155233_init
+|   |               migration.sql
+|   |               
+|   \---src
+|           auth.ts
+|           index.ts
+|           resolvers.ts
+|           socket.ts
+|           typeDefs.ts
+|           
+\---frontend
+    |   .gitignore
+    |   app.json
+    |   App.tsx
+    |   index.ts
+    |   package-lock.json
+    |   package.json
+    |   tsconfig.json
+    |   
+    +---assets
+    |       adaptive-icon.png
+    |       favicon.png
+    |       icon.png
+    |       splash-icon.png
+    |       
+    +---graphql
+    |       client.ts
+    |       mutations.ts
+    |       queries.ts
+    |       
+    +---screens
+    |       EventDetailScreen.tsx
+    |       EventListScreen.tsx
+    |       LoginScreen.tsx
+    |       
+    \---store
+            authStore.ts
+            eventStore.ts
+            
